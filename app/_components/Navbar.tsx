@@ -11,8 +11,8 @@ const Navbar = () => {
         </div>
 
         {/* Logo */}
-        <div className='font-romie text-[40px]'>
-            <Link href="/"><p>Popularity Studio</p></Link>
+        <div className='font-romie text-[30px]'>
+            <Link href="/"><p>Popularity Studios</p></Link>
         </div>
 
         {/* About and Contact */}
