@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='p-6 bg-[#080404] z-50 flex flex-row justify-between uppercase items-center text-[#B5650E] text-[15px] font-cremona'>
+    <nav className='p-6  z-50 flex flex-row justify-between uppercase items-center text-[#B5650E] text-[15px] font-cremona' style={{ backgroundColor: 'transparent' }}>
         {/* Works and Archive */}
         <div className='hidden lg:flex justify-between gap-4'>
             <div> Works</div>

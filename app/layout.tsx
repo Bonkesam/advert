@@ -30,10 +30,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
   return (
     <html lang="en">
       <body className={`${cremona.variable} ${romie.variable} ${inter.className}`}>
-      <Navbar/>
         {children}
         </body>
     </html>
