@@ -34,11 +34,11 @@ export default function index({children, backgroundColor="#455CE9", ...attribute
 
   return (
     <Magnetic>
-      <div className={styles.roundedButton} style={{overflow: "hidden"}} onMouseEnter={() => {manageMouseEnter()}} onMouseLeave={() => {manageMouseLeave()}} {...attributes}>
+      <div className="overflow-hidden rounded-full cursor-pointer border relative flex items-center  justify-content py-[15px] px-[60px] hover:text-white" onMouseEnter={() => {manageMouseEnter()}} onMouseLeave={() => {manageMouseLeave()}} {...attributes}>
           {
             children
           }
-        <div ref={circle} style={{backgroundColor}} className={styles.circle}></div>
+        <div ref={circle} style={{backgroundColor}} className="w-full h-[150%] absolute rounded-[50%] top-[100%]"></div>
       </div>
     </Magnetic>
   )
