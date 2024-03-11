@@ -14,7 +14,7 @@ const HeroNav = () => {
                         {/* Works and Archive */}
             <div className='hidden lg:flex justify-between gap-4'>
                 <div> Works</div>
-                <Link href='/gallery'><div> Gallery</div></Link>
+                <Link href='/gallery'><div> Projects</div></Link>
             </div>
 
             {/* Logo */}
