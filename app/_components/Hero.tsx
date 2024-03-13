@@ -1,14 +1,25 @@
 'use client';
-import React from 'react'
+import React, { useEffect } from 'react'
 import HeroNav from './Hero-nav';
-import Image from "next/image";
 import { motion } from 'framer-motion';
+import Lenis from '@studio-freight/lenis';
+import ZoomImage from './zoom/zoom';
 
 
 const Hero = () => {
+  useEffect( () => {
+    const lenis = new Lenis()
+   
+    function raf(time: any) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+},[])
   return (
-    
-    <section className='bg-[#080404] h-full flex overflow-hidden flex-col'>
+    <section>
+    <div className='bg-[#080404] h-full flex overflow-hidden flex-col'>
       <HeroNav/>
       <div className='text-[#B5650E] flex flex-col justify-center gap-y-[50px] items-center p-5 h-[100vh]'>
         <motion.div 
@@ -56,7 +67,9 @@ const Hero = () => {
         {/** Images */}
         <div>
         </div>
-      
+      </div>
+      <ZoomImage/>
+
     </section>
   )
 }
