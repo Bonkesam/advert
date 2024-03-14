@@ -1,7 +1,6 @@
 'use client';
 import React from 'react'
 import ContactNav from '../_components/Contact-Nav'
-import ad from "./public/images/ad.jpg";
 import Image from "next/image";
 
 const page = () => {

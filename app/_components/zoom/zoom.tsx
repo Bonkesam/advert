@@ -3,13 +3,13 @@ import React, { useRef } from 'react';
 import Image from "next/image";
 import styles from "./style.module.scss";
 
-import Picture1 from '../../../public/images/Hero4.jpg'
+import Picture1 from '../../../public/images/Hero1.jpg'
 import Picture2 from '../../../public/images/Hero3.jpg'
-import Picture3 from '../../../public/images/Hero4.jpg'
+import Picture3 from '../../../public/images/Hero11.jpg'
 import Picture4 from '../../../public/images/Hero5.jpg'
 import Picture5 from '../../../public/images/Hero6.jpg'
 import Picture6 from '../../../public/images/Hero7.jpg'
-import Picture7 from '../../../public/images/Hero9.jpg'
+import Picture7 from '../../../public/images/Hero10.jpg'
 
 const ZoomImage = () => {
     const container = useRef(null);
@@ -56,25 +56,24 @@ const ZoomImage = () => {
     ]
 
   return (
-    <div className='h-[300vh] relative'>
-      <div className='sticky overflow-hidden top-0 h-[100vh]'>
+    <div ref={container} className={styles.container}>
+      <div className={styles.sticky}>
         {
             pictures.map(({src, scale}, index) => {
-                return (
-                <motion.div key={index} style={{scale}} className={styles.el}>
+                return <motion.div key={index} style={{scale}} className={styles.el}>
                     <div className={styles.imageContainer}>
                         <Image
                             src={src}
                             fill
                             alt="image"
                             placeholder='blur'
-                            
+                            objectFit='cover'                           
                         
                         />
                     </div>
 
                 </motion.div>
-                )
+                
             })
         }
 

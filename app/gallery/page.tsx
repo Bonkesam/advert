@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import { StickyScroll } from "../_components/ScrollCard";
 import HeroNav from "../_components/Hero-nav";
-import Lenis from "@studio-freight/lenis";
 
 const content = [
   {
