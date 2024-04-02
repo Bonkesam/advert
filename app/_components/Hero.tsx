@@ -57,7 +57,7 @@ const Hero = () => {
 
         
         className='text-xl lg:text-4xl text-center items-center font-romie flex flex-col justify-between gap-y-4 font-extrabold'>
-          <h1 className='text-3xl lg:text-8xl text-[#DCCEB3] p-7 lg:p-10 uppercase'>
+          <h1 className='text-3xl lg:text-8xl text-[#DCCEB3] p-4  lg:p-10 uppercase'>
             Adverts Must Influence, Period!
           </h1>
           <motion.p>We don&apos;t <span className='uppercase text-[#DCCEB3] '>create adverts to </span>sell products</motion.p>
