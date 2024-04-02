@@ -20,7 +20,7 @@ const ContactNav = () => {
             </div>
 
             {/* Logo */}
-            <div className='font-romie text-[14px] lg:text-[30px]'>
+            <div className='font-romie text-[20px] lg:text-[30px]'>
                 <Link href="/"><p>Nyx</p></Link>
             </div>
 

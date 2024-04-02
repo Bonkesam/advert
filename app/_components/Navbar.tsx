@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
 
         {/* Logo */}
-        <div className=' text-[14px] font-romie lg:text-[30px]'>
+        <div className=' text-[20px] font-romie lg:text-[30px]'>
             <Link href="/"><p>NYX</p></Link>
         </div>
 

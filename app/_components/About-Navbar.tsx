@@ -54,7 +54,7 @@ const AboutNavbar = () => {
             </motion.div>
 
             {/*Mobile nav*/}
-            <div className='lg:hidden flex items-center'>
+            <div className='lg:hidden flex'>
                 <MobileNavigation/>
             </div>
 

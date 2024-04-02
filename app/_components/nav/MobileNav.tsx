@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import Nav from './mobile/Nav';
+import { relative } from 'path';
 
 const MobileNavigation = () => {
 
