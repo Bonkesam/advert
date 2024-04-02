@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import React from 'react'
+import MobileNavigation from './nav/MobileNav';
 
 const HeroNav = () => {
   return (
@@ -18,8 +19,8 @@ const HeroNav = () => {
             </div>
 
             {/* Logo */}
-            <div className='font-romie text-[30px]'>
-                <Link href="/"><p>Popularity Studios</p></Link>
+            <div className='text-[14px] font-romie lg:text-[30px]'>
+                <Link href="/"><p>Nyx</p></Link>
             </div>
 
             {/* About and Contact */}
@@ -31,6 +32,11 @@ const HeroNav = () => {
                     <Link href="/contact">Contact</Link>
                 </div>
             </div>
+                    {/*Mobile nav*/}
+            <div className='lg:hidden flex items-center'>
+                <MobileNavigation/>
+            </div>
+
 
             </div>
             <motion.div

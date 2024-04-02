@@ -20,7 +20,7 @@ const AboutNavbar = () => {
 
             {/* Logo */}
             <div className='font-romie text-[30px]'>
-                <Link href="/"><p>Popularity Studios</p></Link>
+                <Link href="/"><p>Nyx</p></Link>
             </div>
 
             {/* About and Contact */}

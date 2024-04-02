@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
+import MobileNavigation from './nav/MobileNav';
 
 const Navbar = () => {
   return (
@@ -11,8 +12,8 @@ const Navbar = () => {
         </div>
 
         {/* Logo */}
-        <div className='font-romie text-[30px]'>
-            <Link href="/"><p>Popularity Studios</p></Link>
+        <div className=' text-[14px] font-romie lg:text-[30px]'>
+            <Link href="/"><p>NYX</p></Link>
         </div>
 
         {/* About and Contact */}
@@ -23,6 +24,11 @@ const Navbar = () => {
             <div>
                 <Link href="/contact">Contact</Link>
             </div>
+        </div>
+
+        {/*Mobile nav*/}
+        <div className='lg:hidden flex items-center'>
+            <MobileNavigation/>
         </div>
       
     </nav>

@@ -39,59 +39,59 @@ const page = () => {
           initial="initial"
           animate='animate'
           exit="exit"
-        className='bg-[#783404] h-full w-full relative text-[#DCCEB3] origin-top'>
+        className='bg-[#783404]  h-full w-full relative text-[#DCCEB3] origin-top'>
           <div className=' relative z-30'>
-          <AboutNavbar/>   
+            <AboutNavbar/>   
           </div>  
-          <div>  
-          <div className='absolute z-10 text-[#DCCEB3] max-w-[50ch] p-5 right-0 font-romie pt-3 text-justify flex flex-col gap-y-4'>
-            <h1 className='uppercase'>
-                Why us?
-            </h1>
-            <p>
-            {getChars(text2)}
-            </p>
-          </div>
-          <motion.div 
-            variants={imageVar}
-            initial="initial"
-            animate="animate"
-          className='absolute inset-0 flex justify-center top-0 origin-top z-15'>
-            <div className='z-20 pt-20'>
-            <Image 
-              src="/images/old.jpg" 
-              alt="Advertisement picture" 
-              height={700}
-              width={300}       
-            />
-
-            </div>
-          </motion.div>
-
-          <div className='absolute z-20 text-[#DCCEB3] max-w-[45ch] pl-10 pr-10 left-0 text-justify   inset-0  top-[70px] font-romie pt-20'>
-            <motion.div 
-              
-            className='bg-black/50  p-5  flex flex-col gap-y-4'>
-             
+          <div className='flex flex-col'>  
+            <div className='absolute z-10 text-[#DCCEB3] max-w-[50ch] p-5 right-0 font-romie pt-3 text-justify flex flex-col gap-y-4'>
               <h1 className='uppercase'>
-                  How we work
+                  Why us?
               </h1>
               <p>
-               {getChars(text1)} 
+              {getChars(text2)}
               </p>
-
-              
-            </motion.div>
-          </div>
-          <motion.div 
-            variants={aboutAnim}
-            initial="initial"
-            animate="show"
-          className='absolute bottom-0 left-0 right-0 text-center z-10'>
-            <div className='bottom-0 overflow-hidden'>
-              <p className='font-romie text-[250px] uppercase '>Aboutus</p>
             </div>
-          </motion.div>
+            <motion.div 
+              variants={imageVar}
+              initial="initial"
+              animate="animate"
+            className='absolute inset-0 flex justify-center top-0 origin-top z-15'>
+              <div className='z-20 pt-20 hidden'>
+              <Image 
+                src="/images/old.jpg" 
+                alt="Advertisement picture" 
+                height={700}
+                width={300}       
+              />
+
+              </div>
+            </motion.div>
+
+            <div className='absolute z-20 text-[#DCCEB3] max-w-[45ch] pl-10 pr-10 left-0 text-justify   inset-0  top-[70px] font-romie pt-20'>
+              <motion.div 
+                
+              className='bg-black/50  p-5  flex flex-col gap-y-4'>
+              
+                <h1 className='uppercase'>
+                    How we work
+                </h1>
+                <p>
+                {getChars(text1)} 
+                </p>
+
+                
+              </motion.div>
+            </div>
+            <motion.div 
+              variants={aboutAnim}
+              initial="initial"
+              animate="show"
+            className='absolute bottom-0 left-0 right-0 text-center z-10'>
+              <div className='bottom-0 overflow-hidden'>
+                <p className='font-romie text-[80px] lg:text-[250px] uppercase '>[Aboutus]</p>
+              </div>
+            </motion.div>
           </div>
 
 

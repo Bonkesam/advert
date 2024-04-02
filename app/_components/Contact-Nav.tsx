@@ -19,8 +19,8 @@ const ContactNav = () => {
             </div>
 
             {/* Logo */}
-            <div className='font-romie text-[30px]'>
-                <Link href="/"><p>Popularity Studios</p></Link>
+            <div className='font-romie text-[14px] lg:text-[30px]'>
+                <Link href="/"><p>Nyx</p></Link>
             </div>
 
             {/* About and Contact */}

@@ -21,7 +21,7 @@ const romie = localfont({
 })
 
 export const metadata: Metadata = {
-  title: "Visibility Studios",
+  title: "The Nyx Collective",
   description: "We create adverts that relate with the people",
 };
 
