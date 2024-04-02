@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import React from 'react'
+import MobileNavigation from './nav/MobileNav';
 
 const AboutNavbar = () => {
   return (
@@ -19,7 +20,7 @@ const AboutNavbar = () => {
             </div>
 
             {/* Logo */}
-            <div className='font-romie text-[30px]'>
+            <div className='font-romie  text-[20px] lg:text-[30px]'>
                 <Link href="/"><p>Nyx</p></Link>
             </div>
 
@@ -51,6 +52,12 @@ const AboutNavbar = () => {
             >
                 <div className='border w-screen'/>
             </motion.div>
+
+            {/*Mobile nav*/}
+            <div className='lg:hidden flex items-center'>
+                <MobileNavigation/>
+            </div>
+
         </div>
       
     </motion.nav>

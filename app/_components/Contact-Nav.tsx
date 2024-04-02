@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import React from 'react'
+import MobileNavigation from './nav/MobileNav';
 
 const ContactNav = () => {
   return (
@@ -51,6 +52,11 @@ const ContactNav = () => {
             >
                 <div className='border w-screen'/>
             </motion.div>
+            {/*Mobile nav*/}
+            <div className='lg:hidden flex items-center'>
+                <MobileNavigation/>
+            </div>
+
         </div>
       
     </motion.nav>

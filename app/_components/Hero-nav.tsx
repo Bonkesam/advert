@@ -19,7 +19,7 @@ const HeroNav = () => {
             </div>
 
             {/* Logo */}
-            <div className='text-[14px] font-romie lg:text-[30px]'>
+            <div className='text-[20px] font-romie lg:text-[30px]'>
                 <Link href="/"><p>Nyx</p></Link>
             </div>
 
@@ -31,10 +31,6 @@ const HeroNav = () => {
                 <div>
                     <Link href="/contact">Contact</Link>
                 </div>
-            </div>
-                    {/*Mobile nav*/}
-            <div className='lg:hidden flex items-center'>
-                <MobileNavigation/>
             </div>
 
 
@@ -56,6 +52,11 @@ const HeroNav = () => {
             >
                 <div className='border w-screen'/>
             </motion.div>
+                        {/*Mobile nav*/}
+            <div className='lg:hidden flex items-center'>
+                <MobileNavigation/>
+            </div>
+
         </div>
       
     </motion.nav>
