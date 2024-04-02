@@ -23,6 +23,10 @@ const HeroNav = () => {
                 <Link href="/"><p>Nyx</p></Link>
             </div>
 
+            <div className=' top-0 lg:hidden flex items-center'>
+                <MobileNavigation/>
+            </div>
+
             {/* About and Contact */}
             <div className='hidden lg:flex justify-between gap-4'>
                 <div>
@@ -32,6 +36,7 @@ const HeroNav = () => {
                     <Link href="/contact">Contact</Link>
                 </div>
             </div>
+
 
 
             </div>
@@ -53,9 +58,6 @@ const HeroNav = () => {
                 <div className='border w-screen'/>
             </motion.div>
                         {/*Mobile nav*/}
-            <div className='lg:hidden flex items-center'>
-                <MobileNavigation/>
-            </div>
 
         </div>
       
