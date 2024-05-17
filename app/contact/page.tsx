@@ -12,7 +12,7 @@ const page = () => {
         </div>
         <div className='absolute flex flex-row h-full w-full z-20'>
           
-          <div className=' relative bg-[#080404] h-full w-[60%] p-5 pt-20'>
+          <div className=' relative bg-[#080404] h-full w-full lg:w-[60%] p-5 pt-20'>
               <div className='relative p-5 pt-10 items-center justify-center flex flex-col h-full'>
                 <div className='flex flex-col w-full gap-y-4'>
                   <p className='items-center text-center text-4xl uppercase font-cremona'>Get in touch</p>
@@ -43,7 +43,7 @@ const page = () => {
               </div>
           </div>
 
-          <div className='relative w-[40%] right-0'>
+          <div className=' hidden lg:flex relative w-[40%] right-0'>
               <Image 
                 src="/images/ad2.jpg"
                 alt='Image of an ad'
