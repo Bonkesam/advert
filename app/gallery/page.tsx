@@ -6,9 +6,9 @@ import HeroNav from "../_components/Hero-nav";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Branding Strategy",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "We meticulously craft an enduring brand identity that resonates deeply with your audience. Through captivating visuals and a compelling narrative, we encapsulate your brand's essence. Our branding strategies ensure your business stands out from competitors.",
     content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
@@ -22,9 +22,9 @@ const content = [
     ),
   },
   {
-    title: "Real time changes",
+    title: "Digital Marketing",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "We unleash the power of digital channels to amplify your brand's reach. Our strategic, data-driven campaigns engage consumers across platforms. From search engine optimization to social media advertising, we maximize your digital presence.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
@@ -38,9 +38,9 @@ const content = [
     ),
   },
   {
-    title: "Version control",
+    title: "Social media management",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "We harness the boundless potential of social media to foster thriving communities. Our dynamic storytelling cultivates brand advocacy and engagement. From content curation to influencer collaborations, we amplify your social presence.",
     content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
@@ -56,7 +56,7 @@ const content = [
   {
     title: "Running out of content",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "We weave spellbinding stories that captivate and inspire your audience. Our content creation services forge emotional connections that elevate your brand's narrative. Through compelling visuals, videos, and written pieces, we bring your brand to life.",
     content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
@@ -70,9 +70,9 @@ const content = [
     ),
   },
   {
-    title: "Running out of content",
+    title: "Market research",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "We unveil profound insights into consumer behavior and market landscapes. Our data-driven market research fuels strategies for sustainable growth. Through in-depth analysis, we empower your business to make informed decisions and maintain a competitive edge.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         Running out of content
